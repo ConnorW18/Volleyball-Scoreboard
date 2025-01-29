@@ -1,0 +1,222 @@
+@font-face {
+    font-family: "teamFont";
+    src: url("TS Block Bold.ttf") format("truetype");
+}
+
+input::placeholder{
+    text-align: center;
+    color: white;
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"] {
+    appearance: textfield; /* For modern browsers */
+}
+
+header{
+    text-align: center;
+}
+
+#glow1{
+    transform: scaleY(2);
+    transform: scaleX(.7);
+    font-size: 75px;
+    font-family: "teamFont";
+    margin: 40px auto;
+    text-shadow: 0 0 10px rgba(255, 35, 35, 0.918);
+}
+
+#glow2{
+    transform: scaleY(2);
+    transform: scaleX(.7);
+    font-size: 75px;
+    font-family: "teamFont";
+    margin: 40px auto;
+    text-shadow: 0 0 10px rgba(32, 129, 255, 0.918);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    top: 35%;
+    left: 35%;
+    position: absolute;
+    z-index: 1;
+}
+
+.inline{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    scale: 2;
+}
+
+.team-name{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(56, 52, 52);
+    border: none;
+    border-radius: 50px 50px 0 0;
+    font-family: "teamFont";
+    color:white;
+}
+
+.buttons{
+    width: 70px;
+    height: 50px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 30px;
+}
+
+#add1:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+#add2:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+#sub1:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+#sub2:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.scores{
+    width: 3ch;
+    height: 75px;
+    margin: 20px auto;
+    font-size: 45px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-family: "teamFont";
+}
+
+.t1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 85, 85);
+    border-radius: 50px;
+}
+
+.t2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(85, 85, 255);
+    border-radius: 50px;
+}
+
+.directions{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 7px;
+    text-align: center;
+    color: white;
+}
+
+#whistle-btn{
+    position: absolute;
+    top: 27%;
+    left: 45.5%;
+    z-index: 2;
+    background: rgb(192, 212, 255);
+    border: black solid 2px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: "teamFont";
+    text-align: center;
+    width: 200px;
+    height: 50px;
+}
+
+#whistle-btn:hover{
+    background-color: white;
+}
+
+.container4{
+    position: absolute;
+    left: 45.5%;
+    top: 35%;
+    z-index: 2;
+}
+
+#reset{
+    background: rgb(255, 209, 209);
+    border: black solid 2px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: "teamFont";
+    text-align: center;
+    width: 200px;
+    height: 50px;
+}
+
+#reset:hover{
+    background-color: white;
+}
+
+.container2{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 45.5%;
+    top: 45%;
+    gap: 30px;
+}
+
+.serve-img{
+    z-index: 2;
+    mix-blend-mode: multiply;
+    width: 100px;
+}
+
+.split{
+    background-color: black;
+}
+
+#serve-img-1{
+    border: solid 5px;
+    border-color: rgb(255, 121, 121);
+}
+
+#serve-img-2{
+    border: solid 5px;
+    border-color: transparent;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: "teamFont";
+    position: absolute;
+    top: 60%;
+    left: 49.7%;
+    scale: 2;
+    z-index: 2;
+    margin-top: 30px;
+}
+
+.container3 label{
+    font-size: 15px;
+}
+
+#set-num{
+    width: 15px;
+    height: 20px;
+    font-family: "teamFont";
+    text-align: center;
+    border: solid black 3px;
+    border-radius: 5px;
+}

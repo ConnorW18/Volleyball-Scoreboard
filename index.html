@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volelyball Scoreboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="block.png">
+</head>
+<body>
+    <header><span id="glow1">Volleyball</span> <span id="glow2">Scoreboard</span></header>
+
+    <div class="container">
+        <div class="inline">
+            <div class="t1">
+                <input type="text" placeholder="Team Name 1" class="team-name">
+                <button id="add1" class="buttons">+</button>
+                <span class="directions">(Click/Up Arrow)</span>
+                <input type="number" id="score1" class="scores" value="0">
+                <span class="directions">(Click/Down Arrow)</span>
+                <button id="sub1" class="buttons">-</button>
+            </div>
+            <div class="t2">
+                <input type="text" placeholder="Team Name 2" class="team-name">
+                <button id="add2" class="buttons">+</button>
+                <span class="directions">(Click/Up Arrow)</span>
+                <input type="number" id="score2" class="scores" value="0">
+                <span class="directions">(Click/Down Arrow)</span>
+                <button id="sub2" class="buttons">-</button>
+            </div>
+        </div>
+    </div>
+
+    <button id="whistle-btn">Whistle</button>
+    <audio src="referee-whistle-blow-gymnasium-6320.mp3" id="whistle"></audio>
+
+    <div class="container4">
+        <input type="button" id="reset" value="Reset Score">
+    </div>
+
+    <div class="container2">
+        <img class="serve-img" id="serve-img-1" src="istockphoto-1422789903-612x612.jpg" alt="serve.peg" >
+        <div class="split">.</div>
+        <img class="serve-img" id="serve-img-2" src="istockphoto-1422789903-612x612.jpg" alt="serve.jpeg" >
+    </div>
+
+    <div class="container3">
+        <label>Set</label> 
+        <input type="number" id="set-num" value="1">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
